@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import cicd from './CICD.png';
 import './App.css';
 
 function App() {
@@ -7,15 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+		  AWS - Continous Integration / Continous Delivery
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://mycloudfun.net/pages/devops-in-aws-ci-cd-codedeploy-codepipeline-part1.html"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
+        > 
+        <img src={cicd}/>
         </a>
       </header>
     </div>
