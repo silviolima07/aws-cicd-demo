@@ -8,7 +8,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-		  AWS - Continous Integration / Continous Delivery
+		<strong>AWS - Continous Integration / Continous Delivery</strong>
+		<br>
+		<strong>React application</strong>
+		<strong>Source:</strong>GitHub
+		<strong>CodeBuild:</strong>
+		After executing push by git, code is compiled and application is zipped
+		<strong>CodeDeploy:</strong>
+		Application is unzipped in the bucket created to host a static site
         </p>
         <a
           className="App-link"
