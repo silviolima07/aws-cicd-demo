@@ -10,12 +10,14 @@ phases:
   pre_build:
     commands:
       - echo "Instalando as dependencias"
+      - pwd
       - ls -l
       - npm install
   # Now we want to actually build our React app
   build:
    commands:
       - echo "Build iniciando em `date`"
+      - pwd
       - ls -l
       - npm run build
 # Artifacts will specify what files will be uploaded to s3
