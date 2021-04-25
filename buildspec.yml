@@ -27,3 +27,7 @@ artifacts:
     - '**/*'
   discard-paths: no
   base-directory: build
+  commands:
+      - echo "Artifacts"
+      - pwd
+      - ls -l
