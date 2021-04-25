@@ -13,7 +13,7 @@ function App() {
 		Example with a React application<br></br>
 		CodePipeline - manage the actions<br></br>
 		Source - github<br></br>
-		CodeBuild - when code is pushed by developer, code is built and application zipped.<br></br>
+		CodeBuild - when code is pushed by developer, build process starts and application zipped if succeeded.<br></br>
 		CodeDeploy - application is unzipped in the bucket created to host a static site<br></br>
         </p>
         <a
@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         > 
-        <img src={cicd} alt="CI/CD"/>
+        More details about the process.
         </a>
       </header>
     </div>
