@@ -9,13 +9,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
            <center><strong>AWS - Continous Integration / Continous Delivery</strong>
-		<br>
-		<strong>React application</strong><br>
-		<strong>Source:</strong>GitHub<br>
-		<strong>CodeBuild:</strong><br>
+		<br></br>
+		<strong>React application</strong><br></br>
+		<strong>Source:</strong>GitHub<br></br>
+		<strong>CodeBuild:</strong><br></br>
 		After executing push by git, code is compiled and application is zipped
-		<br><strong>CodeDeploy:</strong><br>
+		<strong>CodeDeploy:</strong><br></br>
 		Application is unzipped in the bucket created to host a static site
+		<br></br>
 		</center>
         </p>
         <a
