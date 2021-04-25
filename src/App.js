@@ -6,17 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" width="200" height="200"/>
         <p>
            <center><strong>AWS - Continous Integration / Continous Delivery</strong>
 		<br></br>
-		<strong>React application</strong><br></br>
-		<strong>Source:</strong>GitHub<br></br>
-		<strong>CodeBuild:</strong><br></br>
-		After executing push by git, code is compiled and application is zipped
-		<strong>CodeDeploy:</strong><br></br>
-		Application is unzipped in the bucket created to host a static site
-		<br></br>
+		Example with a React application<br></br>
+		Source:github<br></br>
+		CodeBuild - when code is pushed by developer, code is built and application zipped.<br></br>
+		CodeDeploy: application is unzipped in the bucket created to host a static site<br></br>
 		</center>
         </p>
         <a
