@@ -10,6 +10,7 @@ function App() {
         <p>
            <center><strong>AWS - Continous Integration / Continous Delivery</strong></center>
 		<br></br>
+    Version 2<br></br>
 		Example with a React application<br></br>
 		CodePipeline - manage the actions since monitoring github updates, building app and deploy on bucket.<br></br>
 		Source - github<br></br>
