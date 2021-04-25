@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         > 
-        More details about the process.
+        See more details about the process.
         </a>
       </header>
     </div>
