@@ -11,7 +11,7 @@ function App() {
            <center><strong>AWS - Continous Integration / Continous Delivery</strong></center>
 		<br></br>
 		Example with a React application<br></br>
-		CodePipeline - manage the actions<br></br>
+		CodePipeline - manage the actions since monitoring github updates, buiding app and deploy on bucket.<br></br>
 		Source - github<br></br>
 		CodeBuild - when code is pushed by developer, build process starts and application zipped if succeeded.<br></br>
 		CodeDeploy - application is unzipped in the bucket created to host a static site<br></br>
